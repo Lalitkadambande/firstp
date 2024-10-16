@@ -1,0 +1,1068 @@
+@charset "utf-8";
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap'); */
+/* /* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap'); 
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap'); */
+
+
+:root {
+    --stdBlack: #333333;
+    --stdwhite: #ffffff;
+    --stdgrey:#B3B3B3;
+    --primary: #A25000;
+    --secondarycolor:#D291BC;
+    --thirdcolor:#F7EBF3;
+    --forthcolor:#7F7F7F;
+    --fifthcolor:#F4F4F4;
+
+}
+
+* {
+    margin: 0;
+    font-family: "work sans",Arial,sans-serif;
+    font-size: 16px;
+}
+
+
+li {
+    list-style-type:none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+menu {
+    padding: 0;
+}
+
+
+/*---------------------------------------------------------------------  */
+/* mobile view */
+
+header {
+      position: sticky;
+    top: 0;
+    z-index: 1;  
+}
+
+.yoga {
+     display: flex;  
+     letter-spacing: 5px;
+     justify-items: center;
+     color: var(--stdwhite);   
+} 
+
+.yoga2 {
+  display: none;
+}
+
+
+.abc {
+    color: var(--stdgrey);
+    padding-right: 10px;
+    letter-spacing: 2px;
+}
+
+.yogaflex {
+    display: flex;
+     justify-content: space-between; 
+    line-height: 2.8;
+    background-color: var(--stdBlack);
+}
+
+.yogaflex h1 {
+    color: var(--stdgrey);
+    font-size: 18px;
+    font-weight: 100px;
+}
+
+.heroSection {
+       height: 80vh;      
+    background-image:linear-gradient(to right, rgba(219,194,215), rgba(255,255,255,0.5)), url(../images1/bg_2.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-position: 620px; 
+    background-position: bottom ;
+     padding-top: 30px ;     
+     /* background-image: linear-gradient(to right, rgba(219,294,215), rgba(255,255,255,0.5)), url(../images1/bg_2.png); */
+}
+
+.free {
+font-size: 12px;
+border-radius: 15px;
+line-height: 45px;
+position:absolute; 
+left: 20px;
+top: 430px;
+background-color:var(--secondarycolor);
+color: var(--stdwhite);
+border: #D3A0C8;
+width: 130px;
+}
+
+.free:hover {
+    background-color: var(--stdwhite);
+    color: var(--stdBlack);
+}
+
+.para1 {
+    padding:0px 20px;
+     padding-top: 20px; 
+    font-size: 44px;
+    color: var(--forthcolor);
+}
+
+.para2 {
+    padding: 50px 20px;
+     font-size: x-large; 
+     width: 230px;
+    color: var(--stdgrey);
+}
+
+.lotus {
+    width: 30px;
+}
+
+.lotus2 {
+    color: var(--stdwhite)
+}
+
+.figure3 {
+    width: 70px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    border: 2px solid #F7EBF3;
+    border-radius:  50% ;
+    background-color: var(--thirdcolor);
+}
+
+
+.headline {
+    padding:5px 30px;
+    color: var(--stdBlack);
+}
+
+.para3 {
+    padding: 0 30px;
+    color: var(--stdgrey);
+    font-weight:500;
+}
+
+.para4 {
+  font-size: 50px;
+    color: var(--stdBlack);
+}
+.firstsection  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#fafafa ;
+}
+
+ 
+.level {
+     text-align: center; 
+    font-weight:100;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: var(--forthcolor);
+}
+
+.para4 {
+    text-align: center; 
+     font-size: 16px; 
+     
+     padding-bottom: 60px; 
+}
+
+.focus {
+    line-height: 1.5;
+}
+
+.lessons img {
+    width: 300px;
+    height: 350px;
+    margin: -2px;   
+}
+
+.classes {
+    text-align: center;
+  
+     padding: 50px 0px;
+}
+
+.para5 {
+    text-align: center;
+    font-size: small;
+    color: var(--stdgrey);
+    font-weight: lighter;
+    padding: 10px 0;
+    letter-spacing: 5px;
+}
+
+.para6 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: lighter;
+    padding-bottom: 70px;
+    color:var(--forthcolor)
+}
+
+.tables {
+    padding-top: 50px;
+}
+.year {
+    font-weight: lighter;
+    font-size:small;
+    text-align: center;
+    padding: 40px 0;
+    /* margin-bottom: 10px; */
+}
+
+.year2 {
+    text-align: center;
+    font-size: 45px;
+    color: var(--secondarycolor);
+    line-height: 2;
+}
+
+.pricing {
+    background-color:var(--fifthcolor);
+    padding-bottom: 70px;
+}
+
+.year3 {
+    text-align: center;
+    font-weight:lighter;
+    font-size: 17px;
+    line-height: 2.7;
+    color: var(--stdgrey);   
+}
+ 
+.all {
+    text-align: center;
+    font-weight: bold;
+    color: var(--forthcolor);
+    line-height: 2.5;
+}
+
+
+.yearcard {
+
+    /* padding-bottom: 100px; */
+    background-color:var(--stdwhite);
+    background-size: 40px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    display: block;
+    background-color: var(--secondarycolor);
+    height: 60px;
+    width: 170px;
+    line-height: 3.5;
+    text-align: center;
+     margin: -15px 0px 0px 75px; 
+    color: var(--stdwhite);
+    border: 2px solid #D3A0C8;
+}
+
+.stories2 {
+    text-align: center;
+}
+
+.test {
+    font-size: smaller;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    color: var(--stdgrey);
+    
+}
+.stories {
+    background-color:var(--stdwhite);
+    
+    padding: 50px;
+}
+
+.full {
+    font-size:x-large;
+    font-weight:lighter ;
+    text-align: center;
+    padding-bottom: 90px;   
+}
+
+.cust {
+    font-size: 14px;   
+}
+
+.happy {
+    height: 100vh;
+background-image: linear-gradient(to right,rgba(219, 194, 215),rgb(255,255,255,0.5)), url(../images1/bg_3.png);   
+background-repeat: no-repeat;
+background-position:center bottom;
+   filter: hue-rotate(335%);  
+ filter: saturate(250%);    
+padding: 50px;
+}
+
+.index {
+
+  background-color: var(--fifthcolor);
+}
+
+.happy2 {
+    text-align: center;
+    padding-bottom:  60px;
+    line-height: 2;
+    color:var(--stdwhite)
+}
+
+.happy2 h6 {
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.conduct {
+    font-size: 40px;
+}
+
+.gallery {
+    text-align: center;
+    padding-top: 35px;     
+
+}
+
+.gallery2 {
+    letter-spacing: 4px;
+    font-weight: lighter;
+    color: var(--stdgrey);
+    line-height: 2.5;
+}
+
+.gallery3 {
+    font-size: 25px;
+    font-weight: lighter;
+    padding-bottom: 60px;
+}
+
+ .latest{
+  margin-top: -5px;  
+}
+
+.latest img {
+    height: 350px;
+    width: 100%;
+}
+
+.see {
+    padding-bottom: 60px;
+}
+
+.footer {
+  
+    padding-bottom: 70px;
+    background-color: var(--secondarycolor);
+}
+.footer2 {
+    padding-left: 10px;
+    line-height: 1.5;
+     padding-bottom: 50px; 
+     color: var(--stdwhite);
+}
+
+.footer1 {
+    padding: 55px 0px;
+    padding-left: 10px;
+    
+    color: var(--stdwhite);
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right:230px;
+    padding-left: 10px;
+    padding-bottom: 130px;
+    width: 80px;
+}
+
+a {
+    color: var(--stdwhite);
+}
+
+.copy {
+    text-align: center;
+    color: var(--stdwhite);   
+}
+
+.img-1{
+    width: 25%;
+    border-radius: 100%;
+}
+.width{
+    width:65%;
+    padding-bottom: 30px;
+    font-size: 13px;
+    line-height: 1.5;
+    padding-left: 30px;
+
+}
+
+.float{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+}
+.p-1{
+    width: 40%;
+    padding-left: 20px;
+
+
+}
+.quateIcon{
+ 
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--stdwhite);
+    background-color:var(--secondarycolor) ;
+}
+.quateDiv{
+   
+    padding: 0 0 20px 20px;
+
+} 
+.span-1{
+    font-size: 11px;
+    color: var(--forthcolor);
+}
+
+.quate{
+    display: flex;
+    align-items: center;
+}
+.mobleHide{
+    display: none;
+}
+
+.button1{
+    /* padding-left: 35px; */
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+
+
+/* --------------------------------------------------------------------- */
+
+/* tablet view */
+
+ @media (min-width: 768px) {
+    .fa-size {
+        font-size: 1.5rem;
+    }
+    .button1{
+        padding-left: 10px;
+      
+    }
+
+
+  
+
+    header {  position: sticky;
+        top: 0;
+        z-index: 1;}
+
+    .yogaflex {
+        background-color: var(--stdBlack);
+        display: flex;  
+    }
+
+    .yoga1 {
+    
+        display: flex;
+        align-items: center;
+    }
+    .yoga{
+        display: flex;
+        align-items: center;
+    }
+
+    .lotus {
+        width: 50px;
+        padding-left: 20px;
+    }
+    .yogalaX{
+        font-size: 22px;
+    }
+    
+.yogaflex  {
+
+    color: var(--stdgrey);
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+
+.body{
+    display: flex;
+    padding:  40px; 
+    line-height: 1.5;
+    
+}
+
+.para1 {
+    width: 500px;
+    padding: 40px 0px 0px 40px;
+    font-size: 50px;
+}
+
+.para2 {
+    font-size: 30px;
+    width: 470px;
+    padding: 70px 0px 0px 40px ;
+    font-weight: thin;
+}
+
+.free {
+    position: absolute;
+    left: 50px;
+
+    line-height: 60px;
+}
+.classes {
+padding-bottom: 70px;
+}
+
+.firstsection {
+    padding-top: 90px; 
+ 
+}
+.para4 {
+    font-size: 50px; 
+     font-weight: thin; 
+      width: 600px; 
+      padding-left: 75px; 
+     
+     
+    color: var(--stdBlack);
+}
+
+.level {
+    letter-spacing: 4px;
+    font-size: 16px;
+}
+
+.lessons img {
+    height: 350px;
+    width: 332px;
+  
+}
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.para6 {
+    font-size: 45px;
+    width: 45%;
+    text-align: center;
+     padding-left: 210px;  
+     letter-spacing: 5px;
+     font-weight: lighter;
+     color: var(--stdBlack);  
+}
+.pricing  {
+        
+          background-color:var(--fifthcolor);
+ }
+ .extra {
+    display:flex;
+    justify-content: space-evenly;    
+}
+
+.btn {
+    margin: -40px 10px 10px 20px;
+}   
+
+.stories {
+    background-color: var(--stdwhite);
+}
+
+.disablemobile {
+    display: block;   
+}
+
+.yearcard {
+    width: 230px;
+}
+.happy {
+    background-image: linear-gradient(to right,rgba(219, 194, 215),rgb(255,255,255,0.5)), url(../images1/newbg.png);   
+    height: 70vh;
+    background-size: cover;
+}
+
+.happy2 {
+
+    padding:  40px;
+}
+
+.gallery3 {
+    width: 350px;
+    padding-left: 200px;
+    line-height: 1.5;
+    font-size: 50px;
+}
+
+.latest {
+    width: 165px;
+      display:inline-block; 
+      margin-left: 20px;   
+}
+
+.see {
+   padding-bottom: 80px;
+}
+
+
+.foot {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+   align-items: center;
+}
+
+
+.footer2 {
+    align-self: center;
+    font-size: 22px;
+    padding-top: 50px;
+    width: 400px;  
+}
+
+.footer1 p {
+    font-size: 30px;
+    font-weight: thin;
+    
+}
+.footer3 {
+
+ padding-left: 50px;
+  
+}
+
+.full {
+    width: 250px;
+    font-size: 50px;
+    padding-left: 200px;
+    line-height: 1.5; 
+}
+
+.latestphotos img {
+    height: 250px;
+}
+
+.mobleHide{
+        display: block;
+}
+.AllContainer{
+    display: flex;
+    justify-content: end;
+    padding-right: 100px;
+    padding-bottom: 50px;
+
+}
+.container{
+    width: 25%;
+
+}
+.img-1{
+    width: 50%;
+}
+.p-1{
+    line-height: 1.5;
+}
+
+/* 
+  .latest img {
+    height: 350px;
+    width:95%;
+}   */
+
+ .dule {
+   display: flex; 
+   justify-content: center;
+   justify-content: space-around;
+ }
+
+ .dule2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+ }
+ }
+ /* ------------------------------------------------------------------ */
+/* desktop view */
+
+@media (min-width: 992px) {
+    .fa-size {
+     display: none
+    } 
+
+
+    .yoga {
+        color: var(--stdBlack);
+    }
+    header { 
+        
+        position: sticky;
+        top: 0;
+        z-index: 1;
+      
+       
+    }
+
+    .para1 {
+        padding:70px 0px 50px 150px ;
+    }
+
+    .para2 {
+        padding:10px 0px 0px 150px;
+        width: 500px;
+       
+    }
+    .lotus{
+        padding: 0px;
+    }
+    .yogalaX{
+        font-size: 20px;
+    }
+    .yoga-link{
+        padding: 0;
+    }
+
+ .yoga2 { 
+    
+      display:block;   
+      display: flex;
+      justify-content: end;
+     
+  
+    }
+    .yoga3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .yogaflex {
+  
+        background-color: var(--fifthcolor); 
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+
+    }
+
+    
+    header{
+        background-color: var(--fifthcolor);
+        display: flex; 
+        justify-content: center;
+
+    }
+       
+     
+
+    .lotus {
+        height: 40px;
+    }
+
+    .yoga-link {
+
+     
+           padding:  0px 20px 0px 0px;     
+     } 
+   
+    
+   
+    .heroSection {
+        
+        background-position:no-repeat,90% right;
+        background-size: cover;
+        height: 100vh;
+    }
+
+     .yoga h1 {
+        height: 40px;
+    }
+    .yoga2 {
+       
+        width: 50%;
+        padding-right: 250px;
+      
+    } 
+    
+
+    .yoga {
+            
+              width: 20%;
+    } 
+    
+
+    .link {
+        color: var(--stdBlack);
+        padding: 0px 20px;
+    }
+
+    .link:hover {
+        color: var(--secondarycolor);
+    } 
+
+   .free{
+        font-size: 14px;
+
+border-radius: 30px;
+line-height: 45px;
+position:absolute; 
+left: 150px;
+top: 450px;
+background-color:var(--secondarycolor);
+color: var(--stdwhite);
+border: #D3A0C8;
+width: 150px;
+    }
+
+
+    .body{
+        display: flex;
+       
+        line-height: 2;
+        
+        
+    }
+
+    .firstsection {
+        padding-top: 90px;
+        height: 60vh;
+        padding-bottom: 90px;
+        
+    }
+
+    .para4 {
+        font-size: 50px; 
+        width: 620px;
+         font-weight: lighter; 
+         padding-left: 200px;
+        color: var(--stdBlack);
+    }
+
+  
+    .group {
+        display: flex;
+        
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .lessons {
+       
+        width: 30%;  
+      
+    }
+    .lessons img {
+        margin-top:  -2px;
+        margin-right: 38px;
+    }
+    
+    .classes {
+       
+        padding-bottom: 70px;
+        padding-top: 50px;
+        width: 100%;
+        
+    }
+
+    
+    .yearcard {
+        width: 90%;
+      margin-left: 20px;
+    }
+   
+    .para5{
+       
+        text-align: center;
+        
+        
+    }
+
+    .para6{
+        
+        padding: 0px;
+        padding-bottom: 40px;
+        width: 90%;
+
+    }
+    .width{
+        font-size: 20px;
+    }
+  .happy{
+    background-image: linear-gradient(to right,rgba(219, 194, 215),rgb(255,255,255,0.5)), url(../images1/new2.png); 
+    background-size: cover;  
+    background-attachment: fixed;
+    height: 60vh;
+}
+
+.schedule {
+    display: flex;
+    justify-content: center;
+    
+     padding: 60px 0px 0px 40px; 
+}
+
+.lalit {
+    /* width: 350px; */
+ 
+}
+.button1 {
+
+    padding:10px 0px 0px 70px;
+
+}
+.btn{
+    width: 210px;
+}
+
+.full {
+    width: 700px;
+    padding-left: 120px;
+   
+    font-weight: thin;
+    
+}
+.gallery3 { 
+
+    width:620px ;
+}
+
+.latest2 {
+    
+    display: flex;
+    justify-content: center;  
+    
+}
+
+.latest {
+    width: 260px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+ul{
+    padding: 0;
+}
+
+.time {
+     display: flex; 
+     align-self: center; 
+    
+    justify-content: space-evenly; 
+    
+}
+
+.footer3 {
+    width: 20%;
+    height: fit-content;
+    padding: 60px 0px 0px 0px;   
+}
+  .foot {
+    width: 70%;
+ } 
+.hdmi {
+    display: flex;
+    justify-content: center;
+}
+}
+
+/* --------------------------------------------------------------------- */
+/* Extra large devise  */
+
+@media (min-width: 1440px) {
+
+
+    .classes {
+        width: 100%;
+    
+    }
+
+    .para4{
+        width: 45%;
+        padding-left: 400px;
+        
+    }
+
+    .lessons {
+     
+        display:flex; 
+         justify-content: center; 
+          justify-content: space-evenly;  
+          
+        
+        width: 100%;
+        
+    } 
+    .lessons img {
+         margin: -2px; 
+        width: 420px;
+    
+    }
+
+    .yearcard {
+      width: 100%;
+    }
+
+    .button1{
+        padding:0px 0px 0px 70px;
+    }
+
+
+    .full {
+        width:82% ;
+     
+      
+    }
+    .gallery3 { 
+        width:73% ;
+     
+    }
+
+    
+    .pricing {
+        padding-bottom: 80px;
+    }
+ 
+    .hdmi {
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+   }
+
+
+     
+
+
+    
+
